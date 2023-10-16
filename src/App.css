@@ -1,0 +1,114 @@
+:root {
+  --main-font: "Times New Roman";
+  --head-font: "Inter";
+  --font-color-dark: grey;
+  --font-color-light: yellow;
+}
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+input {
+  font-size: 20px;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+}
+h2 {
+  font-family: "Exo 2", sans-serif;
+}
+
+button {
+  margin: 0 20px;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 42px #bc13fe, 0 0 82px #bc13fe,
+    0 0 92px #bc13fe;
+
+  font-family: "Sacramento", sans-serif;
+  letter-spacing: 2px;
+}
+label {
+  display: block;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box > * {
+  width: 25%;
+  border: 1px solid white;
+  margin: 15px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #8e44ad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__red {
+  background-color: red;
+}
+.page__blue {
+  background-color: blue;
+}
+.page__black {
+  background-color: black;
+}
+
+.head {
+  font-family: var(--main-font);
+  color: var(--font-color-dark);
+}

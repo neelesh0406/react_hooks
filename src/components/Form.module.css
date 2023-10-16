@@ -1,0 +1,28 @@
+.box {
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  padding: 50px;
+  color: black;
+}
+.head {
+  color: grey;
+  margin: 10px 0;
+}
+
+.field {
+  display: block;
+}
+.field > label {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin: 5px 0;
+  text-align: left;
+}
