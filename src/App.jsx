@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import UseMemo from "./components/useMemo/UseMemo";
+import Callbackhook from "./components/useCallback/CallbackHook";
 
 export default function App() {
   return (
     <div className="app">
-      <UseMemo />
+      <Callbackhook />
     </div>
   );
 }
