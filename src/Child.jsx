@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
-import { AppContext } from "./components/useContext/UserContext";
+import React from "react";
+import { useGlobalContext } from "./components/useContext/UserContext";
 
 export default function Child() {
-  const userData = useContext(AppContext);
+  const userData = useGlobalContext();
 
   const { name, age } = userData;
 
