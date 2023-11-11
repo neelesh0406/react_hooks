@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Home from "../Home";
+import Home from "./Home";
 
 export default function Memo() {
   const [count, setCount] = useState(0);
