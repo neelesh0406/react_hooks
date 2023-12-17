@@ -25,6 +25,7 @@ export default class Counter extends Component {
     return (
       <div>
         {/* {this.state.count < 2 && <CounterDisplay count={this.state.count} />} */}
+        <h1>Counter Display</h1>
         {this.state.count < 2 && <CounterDisplay1 count={this.state.count} />}
         <button onClick={this.handleClick}>Increment</button>
       </div>

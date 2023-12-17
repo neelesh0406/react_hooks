@@ -15,5 +15,10 @@ export default function CounterDisplay1({ count }) {
     console.log("Function component : updated...");
   }, [count]);
 
-  return <div>Counter Display : {count}</div>;
+  return (
+    <div>
+      <span>Counter Display</span>
+      {count}
+    </div>
+  );
 }
